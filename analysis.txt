@@ -1,0 +1,21 @@
+FTP Traffic Analysis using Wireshark
+
+1. FTP Authentication Analysis
+FTP login traffic was captured using Wireshark.
+Username and password were visible in plaintext during authentication.
+
+2. File Transfer Analysis
+File upload and download activity were observed using FTP commands such as STOR and RETR.
+
+3. TCP Stream Analysis
+TCP Stream analysis showed communication between the FTP client and server, including authentication and file transfer operations.
+
+4. Endpoint Analysis
+Endpoint statistics identified communication between localhost/client and FTP server.
+
+Security Observation:
+FTP does not encrypt credentials or transferred data.
+Attackers monitoring the network could intercept sensitive information.
+
+Conclusion:
+This project demonstrates how insecure protocols like FTP expose authentication data and file transfer activity to network monitoring tools.
